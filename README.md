@@ -55,12 +55,7 @@ scores = model.evaluate(training_data, target_data)
 print("\n%s: %.2f%%" %(model.metrics_names[1], scores[1]*100))
 print(model.predict(training_data).round())
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 ## Output:
 ![image](https://user-images.githubusercontent.com/75235813/169487128-c89208a0-223e-493c-90eb-37997ceb5404.png)
